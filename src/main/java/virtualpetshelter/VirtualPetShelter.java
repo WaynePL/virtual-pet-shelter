@@ -6,4 +6,7 @@ public class VirtualPetShelter {
 		return "Tommy";
 	}
 
+	public String getPetDesc() {
+		return "Hungry";
+	}
 }

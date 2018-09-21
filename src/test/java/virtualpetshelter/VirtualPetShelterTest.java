@@ -13,4 +13,13 @@ public class VirtualPetShelterTest {
 
 		Assert.assertEquals("Tommy", actual);
 	}
+
+	@Test
+
+	public void shouldGetDescription() {
+		VirtualPetShelter undertest = new VirtualPetShelter();
+		String actual = undertest.getPetDesc();
+
+		Assert.assertEquals("Hungry", actual);
+	}
 }

@@ -12,10 +12,6 @@ public class VirtualPet {
 
 	}
 
-	public void tick() {
-		hunger += 10;
-	}
-
 //	String name;
 //	int hunger = 0;
 //	int thirst = 0;

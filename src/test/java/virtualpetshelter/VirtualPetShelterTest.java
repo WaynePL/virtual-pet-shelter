@@ -22,4 +22,12 @@ public class VirtualPetShelterTest {
 
 		Assert.assertEquals("Hungry", actual);
 	}
+
+	@Test
+	public void shouldIncreaseHunger() {
+		VirtualPet undertest = new VirtualPet("tommy", "hungry");
+		undertest.tick();
+		int actual = undertest.hunger;
+		Assert.assertEquals(10, actual);
+	}
 }

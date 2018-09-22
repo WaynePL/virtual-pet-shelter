@@ -15,20 +15,25 @@ Functions - User Functions
 
 
 Functions - Other 
-	Initial - create default nbr of pets and initial to default status levels 
+	Initial - create default nbr of pets and initial 
+		to default status levels 
 	Feed the pets - decrease hunger on ALL pets
-Water the pets - decrease ALL thirst
-Play with a pets - display list of pets with name and description, allow user to select A
- pet, decrease boredom of selected pet, display appropriate msg
-Adopt a pet  - display list of pets with name and description, allow user to select A pet
- to adopt, remove pet from shelter, status levels out of scope (no chgs needed),
- display appropriate method  
-Admit a pet  - allow user to  Add a pet to shelter, accept new name,  initialize default
- status levels, execute tick functions
-Quit - User exits game
-Tick Functionality - Increase hunger, increase thirst, increase boredom, execute this
- Function any time a user selects a function AND display status (do at top of 
-loop). Tick should be part of Shelter Class. 
+	Water the pets - decrease ALL thirst
+	Play with a pets - display list of pets with name 
+		and description, allow user to select A pet, decrease 
+		boredom of selected pet, display appropriate msg
+	Adopt a pet  - display list of pets with name and 
+		description, allow user to select A pet	to adopt, 
+		remove pet from shelter, status levels out of scope 
+		(no chgs needed), display appropriate method  
+	Admit a pet  - allow user to  Add a pet to shelter, 
+		accept new name,  initialize default status levels, 
+		execute tick functions
+	Quit - User exits game
+	Tick Functionality - Increase hunger, increase thirst, 
+		increase boredom, execute this Function any time a 
+		user selects a function AND display status (do at top of 
+		loop). Tick should be part of Shelter Class. 
 
 Design Specific
 	Return a Collection of all pets

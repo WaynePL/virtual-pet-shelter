@@ -22,7 +22,7 @@ public class VirtualPetTest {
 	@Test
 	public void shouldIncreaseHunger() {
 		VirtualPet undertest = new VirtualPet("tommy", "hungry");
-		undertest.tick();
+		undertest.increaseHunger();
 		int actual = undertest.hunger;
 		Assert.assertEquals(10, actual);
 	}
